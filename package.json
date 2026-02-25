@@ -5,14 +5,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "build:github": "vite build --mode github",
-  "preview": "vite preview",
-  "predeploy": "npm run build:github",
-  "deploy": "gh-pages -d dist"
-},
-
+    "dev": "vite",
+    "build": "vite build",
+    "build:github": "vite build --mode github",
+    "preview": "vite preview",
+    "predeploy": "npm run build:github",
+    "deploy": "gh-pages -d dist"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.24",
     "postcss": "^8.5.6",
